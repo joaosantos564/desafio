@@ -10,21 +10,24 @@ form {
     margin: auto;
 }
 #enviar:hover {
-    color: aqua;
+    background-color: deeppink;
+    color: aliceblue;
 }
 
 #button {
     background-color: blueviolet;
     width: 20%;
     margin: auto;
-
 }
 
 #email {
     border-style: dotted;
 }
 
-#text {
+#text:focus {
     border-style: dotted;
+    outline: 0;
+    
 }
+
 
