@@ -38,6 +38,11 @@ input {
     margin: 20px;
 }
 
+#password:focus {
+    border-style: dotted;
+    outline: 0;
+}
+
 
 
 
