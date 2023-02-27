@@ -4,3 +4,27 @@ form {
     width: 50%;
     margin: auto;
 }
+
+#enviar {
+    width: 15%;
+    margin: auto;
+}
+#enviar:hover {
+    color: aqua;
+}
+
+#button {
+    background-color: blueviolet;
+    width: 20%;
+    margin: auto;
+
+}
+
+#email {
+    border-style: dotted;
+}
+
+#text {
+    border-style: dotted;
+}
+
