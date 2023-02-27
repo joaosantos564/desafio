@@ -18,11 +18,6 @@ form {
     color: aliceblue;
 }
 
-#button {
-    width: 20%;
-    margin: auto;
-}
-
 #email:focus {
     border-style: dotted;
     outline: 0;
