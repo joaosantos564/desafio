@@ -1,3 +1,7 @@
+body {
+    background-color: deeppink;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -15,13 +19,13 @@ form {
 }
 
 #button {
-    background-color: blueviolet;
     width: 20%;
     margin: auto;
 }
 
-#email {
+#email:focus {
     border-style: dotted;
+    outline: 0;
 }
 
 #text:focus {
@@ -29,5 +33,11 @@ form {
     outline: 0;
     
 }
+
+input {
+    margin: 20px;
+}
+
+
 
 
